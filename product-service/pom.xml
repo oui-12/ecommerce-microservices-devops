@@ -19,11 +19,11 @@
 
     <properties>
         <!--
-          Matches user-service's local setup (JDK 26 installed). Spring Boot 3.5.x is only
+          Matches user-service's local setup (JDK 25 installed). Spring Boot 3.5.x is only
           officially tested against Java 17-24, so this combination works but is unverified
           upstream - see the README note on the Spring Boot 3.5 -> 4.x decision.
         -->
-        <java.version>26</java.version>
+        <java.version>25</java.version>
         <springdoc.version>2.8.9</springdoc.version>
           <jjwt.version>0.12.6</jjwt.version>
     </properties>
