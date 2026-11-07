@@ -12,7 +12,7 @@ pipeline {
             steps {
                 echo 'Compilation des microservices avec Maven'
                 sh 'java -version'
-                sh './mvnw clean package -DskipTests'
+                sh 'mvn clean package -DskipTests'
             }
         }
      }
